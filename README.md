@@ -10,4 +10,6 @@
 ```
 
 # References
+- [Spring Boot Rest APIs](https://www.devglan.com/spring-boot/spring-boot-angular-example)
+- [Spring Boot + Angular 8 +Spring Data + Rest Example(CRUD)](https://www.devglan.com/spring-boot/spring-boot-angular-8-example)
 - [Spring Boot - Loading Initial Data](https://stackoverflow.com/questions/38040572/spring-boot-loading-initial-data)
