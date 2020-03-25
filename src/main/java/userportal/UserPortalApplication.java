@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.springframework.samples.petclinic;
+package userportal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * PetClinic Spring Boot Application.
+ * Spring Boot Application.
  *
- * @author Dave Syer
+ * @author Anonymouse
  *
  */
 @SpringBootApplication
