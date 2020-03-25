@@ -1,3 +1,9 @@
-drop table user if exists;
-create table user (id integer not null auto_increment, email varchar(255), first_name varchar(255), last_name varchar(255), primary key (id));
+DROP TABLE user IF EXISTS;
 
+CREATE TABLE user (
+  id integer NOT NULL AUTO_INCREMENT,
+  email varchar(255),
+  first_name varchar(255),
+  last_name varchar(255),
+  PRIMARY KEY (id)
+);
