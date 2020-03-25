@@ -9,6 +9,5 @@
 ./mvnw spring-boot:run
 ```
 
-
 # References
 - [Spring Boot - Loading Initial Data](https://stackoverflow.com/questions/38040572/spring-boot-loading-initial-data)
