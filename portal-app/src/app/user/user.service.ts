@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { User } from '../models/user';
+import { environment } from '../../environments/environment';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
@@ -14,7 +15,7 @@ export class UserService {
 
   constructor(private http: HttpClient) { }
 
-  private userUrl = 'http://localhost:8080/users';
+  private userUrl = environment.userUrl;
 
   public createUser(user) {
     return this.http.post<User>(this.userUrl, user);
