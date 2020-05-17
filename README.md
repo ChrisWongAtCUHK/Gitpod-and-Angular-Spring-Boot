@@ -1,8 +1,23 @@
 # Spring Boot REST API
 ## Run on Gitpod
+1. api
 <a href="https://gitpod.io/from-referrer/" style="padding: 10px;">
     <img src="https://gitpod.io/button/open-in-gitpod.svg" width="150" alt="Push" align="center">
 </a>
+2. Angular app
+* change portal-app/src/environments/environment.prod.ts
+```
+export const environment = {
+  userUrl: 'https://{{workspace}}.gitpod.io/users',
+  production: true
+};
+```
+* deploy to GitHub pages
+```
+cd portal-app
+npm run deploy
+```
+P.S. the `predeploy` script in package.json should be changed once.
 
 ## Run by Maven
 ```
