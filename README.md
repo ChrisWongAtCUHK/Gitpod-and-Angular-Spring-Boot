@@ -19,10 +19,17 @@ npm run deploy
 ```
 P.S. the `predeploy` script in package.json should be changed once.
 
-## Run by Maven
+## Run locally
+* run api by Maven
 ```
 ./mvnw spring-boot:run
 ```
+* run Angular app
+```
+cd portal-app
+ng serve
+```
+* http://localhost:4200/
 
 # References
 - [Spring Boot Rest APIs](https://www.devglan.com/spring-boot/spring-boot-angular-example)
